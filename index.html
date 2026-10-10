@@ -7,7 +7,7 @@
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
     <canvas id="unity-canvas" width=1280 height=720 tabindex="-1" style="width: 1280px; height: 720px; background: #FFFFFF"></canvas>
-    <script src="Build/WebGL_C_RusLocal.loader.js"></script>
+    <script src="Build/TWA_C_Rus_V2.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -25,9 +25,9 @@
       }
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/WebGL_C_RusLocal.data",
-        frameworkUrl: "Build/WebGL_C_RusLocal.framework.js",
-        codeUrl: "Build/WebGL_C_RusLocal.wasm",
+        dataUrl: "Build/TWA_C_Rus_V2.data",
+        frameworkUrl: "Build/TWA_C_Rus_V2.framework.js",
+        codeUrl: "Build/TWA_C_Rus_V2.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Intentionally Blank Unlimited",
         productName: "Toy Worlds Atlas - Starfish Level - RusLocalis",
